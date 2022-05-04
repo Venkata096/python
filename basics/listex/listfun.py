@@ -1,0 +1,11 @@
+#l=list(range(0,101,10))
+#print(l)
+#print(type(l))
+'''
+l=list(range(0,59,799))
+print(l)
+print(type(l))
+'''
+l=list(range(0,599,50))
+print(l)
+print(type(l))

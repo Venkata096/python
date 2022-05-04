@@ -1,0 +1,12 @@
+''''
+size=[38,40,42]
+size.append(46)
+print(size)
+size.insert(50,1000)
+print(size)
+'''
+size=[38,40,42]
+size.append(500)
+print(size)
+size.insert(20,100)
+print(size)

@@ -1,6 +1,6 @@
 def verify(pro):
     def inner(name):
-        if name== "anupama":
+        if name=="anupama":
             print("hello darling,how are you")
         else:
             pro(name)

@@ -1,0 +1,6 @@
+f = open('psa1.txt','a+')
+f.write("hi how are guys")
+#print("successfully write the data")
+data = f.read()
+print(data)
+f.close()

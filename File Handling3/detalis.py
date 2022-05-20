@@ -1,0 +1,6 @@
+f = open('abc.txt','a')
+f.write("hello,gm \n")
+f.write("hello,ga \n")
+f.write("hello,gn \n")
+print("successfully write into file")
+f.close()

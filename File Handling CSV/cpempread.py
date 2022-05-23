@@ -7,3 +7,4 @@ for line in list(data):
     for x in line:
         print(x,"\t",end="")
     print()
+    

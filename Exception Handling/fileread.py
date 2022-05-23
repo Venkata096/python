@@ -1,0 +1,7 @@
+f = open('abc.txt','r')
+data = f.read()
+print(data)
+f.close()
+print("hello,naveen")
+print("hello,sindhu")
+print("hello,rupesh")

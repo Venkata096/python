@@ -1,4 +1,14 @@
-eno,ename,salary
-1,sindhu,1234567
-2,bindhu,12356
-3,kalyani,789667
+import csv
+f=open("cpemp.csv", 'w',newline="")
+
+csvobj = csv.writer(f)
+
+csvobj.writerow(["Eno", "EName","Salary"])
+n = int(input("Enter no of Employees:"))
+for  x in range(n):
+    eno =  int(input("Enter Employee No:"))
+    ename= input("Enter Employee Name:")
+    esal=  int(input("Enter Salary:"))
+    csvobj.writerow([eno,ename,esal])
+    
+f.close()

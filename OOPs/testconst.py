@@ -4,7 +4,7 @@ class test:
     def m1(self):
         print("method -m1()")
     def m2(self):
-        print("pro stack acadyme()")
+        print("method -m2()")
 t1 = test()
 t2 = test()
 t3 = test()

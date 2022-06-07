@@ -10,7 +10,7 @@ class grandchild(child):
     def m3(self):
         print("grandchild class - m3() method")
         
-obj = m1()
+obj = grandchild()
 obj.m1()
 obj.m2()
 obj.m3()
